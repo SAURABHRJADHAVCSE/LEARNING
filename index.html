@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 p-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div
+        class="bg-white p-4 rounded-lg shadow-md tile"
+        data-url="Routes\JavascriptBasics\js_basic.html"
+      >
+        <h2 class="text-xl font-bold mb-2">Tile 1</h2>
+        <p>This is the content of tile 1.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md tile" data-url="page2.html">
+        <h2 class="text-xl font-bold mb-2">Tile 2</h2>
+        <p>This is the content of tile 2.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow-md tile" data-url="page3.html">
+        <h2 class="text-xl font-bold mb-2">Tile 3</h2>
+        <p>This is the content of tile 3.</p>
+      </div>
+      <!-- Add more tiles as needed -->
+    </div>
+
+    <!-- Link to the separate JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
